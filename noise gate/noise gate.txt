@@ -1,0 +1,32 @@
+noise gate
+----------	----------		    -------------
+
+socket		knob			        w knob
+audio input	audio input level	      makeup gain
+				
+----------	----------		    -------------
+
+					red led +15dB red led
+socket		w knob			red led +10dB red led 
+threshold cv	threshold offset      amber led +6dB  amber led 
+				     yellow led +3dB  yellow led 
+----------	----------	      green led  0dB  green led
+		      		      green led -3dB  green led
+				      green led -6dB  green led
+w knob		socket		      green led -10dB green led
+attack		hold cv		      green led -15dB green led
+				      green led -20dB green led
+
+w knob		w knob			    -------------				     
+release	    hold manual/atten
+				    mini switch       mini switch	      
+            			         mode L       mode R	      
+----------	----------
+			    l-tiny unlabeled gold screws-r
+
+socket		b knob		    mini switch       mini switch
+					 fade L       fade R
+key in		key lvl			    -------------
+						socket
+						output
+----------	----------		    -------------
